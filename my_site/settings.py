@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.9/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
-
+######### To add to each project ##############################
 import os
 import sys
 
@@ -17,6 +17,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 ENV_DIR = os.path.dirname(os.path.abspath(PROJECT_DIR))
 APPS_DIR = os.path.join(ENV_DIR, 'apps')
 sys.path.append(APPS_DIR)
+###############################################################
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -109,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'fr-fr'
 
 TIME_ZONE = 'UTC'
 
